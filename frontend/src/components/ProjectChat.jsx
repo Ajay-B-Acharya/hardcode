@@ -1175,7 +1175,7 @@ export default function ProjectChat({ onIdeationStateChange }) {
   };
 
   return (
-    <div className={`${isDark ? "bg-[#212121] text-[#e5e5e5]" : "bg-[#f4f6fb] text-[#111]"} h-[100dvh] w-full overflow-hidden`}>
+    <div className={`${isDark ? "bg-[#212121] text-[#e5e5e5]" : "bg-[#f4f6fb] text-[#111]"} h-full min-h-0 w-full overflow-hidden`}>
       <div className="grid h-full min-h-0 grid-cols-1 gap-0 lg:grid-cols-[340px_minmax(0,1fr)_260px]">
         <aside className={`flex h-full min-h-0 flex-col border-r ${isDark ? "border-white/10 bg-[#2a2a2a]" : "border-black/10 bg-white"}`}>
           <div className="flex items-center justify-between px-5 py-4">
