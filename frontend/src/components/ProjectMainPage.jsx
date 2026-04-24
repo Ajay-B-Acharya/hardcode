@@ -5,7 +5,6 @@ import { useThemeStore } from "../store/useThemeStore";
 import { useAuthStore } from "../store/useAuthStore";
 import axios from "axios";
 import toast from "react-hot-toast";
-
 import ProjectChat from "../components/ProjectChat";
 import ComponentsChat from "../components/ComponentsChat";
 import WokwiProofLab from "../components/WokwiProofLab";
